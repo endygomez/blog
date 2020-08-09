@@ -1,15 +1,22 @@
 module.exports = {
+  pathPrefix: `/blog`,
   siteMetadata: {
-    title: `DevBlogOps`,
+    title: `Blog de DevOps para equipos élite`,
     author: {
       name: `Endy Gómez`,
-      summary: `creyente del movimiento DevOps y líder de equipos élite en varias organizaciones nacionales.`,
+      summary: `creyente del movimiento DevOps y motivado a enseñar, aprender y hacer que las áreas de IT sean realmente productivas.`,
     },
-    description: `Un Blog de DevOps para Equipos Élite`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Blog de DevOps para Equipos Élite`,
+    siteUrl: `https://endygomez.dev`,
     social: {
       instagram: `endygomez.dev`
     },
+    menuLinks: [
+      {
+        name: `Blog`,
+        url: `/`
+      }
+    ]
   },
   plugins: [
     {
@@ -78,6 +85,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
