@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `DevBlogOps`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Endy Gómez`,
+      summary: `creyente del movimiento DevOps y líder de equipos élite en varias organizaciones nacionales.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Un Blog de DevOps para Equipos Élite`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      instagram: `endygomez.dev`
     },
   },
   plugins: [
